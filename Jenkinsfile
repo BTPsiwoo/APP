@@ -9,7 +9,7 @@ create-services:
 
   {
   "scenario_id": "SAP_COM_0510",
-  "type": "basic"
+  "type": "standard"
 }
 
 atcobjects:
@@ -18,8 +18,8 @@ atcobjects:
 
     general:
   cfApiEndpoint: 'https://api.cf.sap.hana.ondemand.com'
-  cfOrg: 'your-cf-org'
-  cfSpace: 'yourSpace'
+  cfOrg: 'f7335e5btrial_main-siwoo'
+  cfSpace: 'dev'
   cfCredentialsId: 'cfAuthentification'
   cfServiceInstance: 'abapEnvironmentPipeline'
   cfServiceKeyName: 'jenkins_sap_com_0510'
