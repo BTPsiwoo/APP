@@ -12,9 +12,9 @@ stages:
   Acceptance:
     cloudFoundryDeploy: false
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
-    cfOrg: "f7335e5btrial_dev-dev"
+    cfOrg: "f7335e5btrial_siwoodev-dev"
     cfSpace: "dev"
-    cfAppName: "APP"
+    cfAppName: "app"
     cfCredentialsId: "deploy-to-cf"
     deployType: "standard"
     npmExecuteEndToEndTests: false
@@ -23,9 +23,9 @@ stages:
   Release:
     cloudFoundryDeploy: true
     cfApiEndpoint: "https://api.cf.us10-001.hana.ondemand.com"
-    cfOrg: "f7335e5btrial_dev-dev"
+    cfOrg: "f7335e5btrial_siwoodev-dev"
     cfSpace: "dev"
-    cfAppName: "APP"
+    cfAppName: "app"
     cfCredentialsId: "deploy-to-cf"
     deployType: "standard"
     tmsUpload: false
